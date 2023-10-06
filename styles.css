@@ -44,7 +44,7 @@ button {
     font-family: 'Press Start 2P', cursive;
     font-weight:900;
     background-color:#00FF73;
-    color:white;
+    color:black;
 }
 @media (max-width: 600px) {
     .container {
