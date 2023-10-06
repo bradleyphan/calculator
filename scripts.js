@@ -35,11 +35,11 @@ function getOperator(operator) {//checks if there is a first number
 }
 
 function calculate() {
-    if (firstNumber !== '' && secondNumber !== '') { //like i said b4, if there it is not blank it will run thru the loop
+    if (firstNumber !== '' && secondNumber !== '') { //like i said b4, if there it is not blank it will run thru the if statements
         let num1 = parseFloat(firstNumber) //using parseFloat for decimals for division
         let num2 = parseFloat(secondNumber) //These are new varaibles to store the first and second numbers 
         switch (currentOperator) { //could also use if/else statements here 
-            case '+':
+            case '+': //all these cases represent each operator 
                 firstNumber = (num1 + num2)
                 break
             case '-':
